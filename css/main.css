@@ -1,0 +1,42 @@
+ @import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+
+body {
+
+  background: radial-gradient(#03025a 10%, #11022f 80%);
+  color: antiquewhite;
+  font-family: 'Libre Franklin', sans-serif;}
+
+nav li a {
+  color: white;
+  display: inline-block;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  text-decoration: none;
+  transition: .2s;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+nav ul {
+  width: 100vw;
+  height: 3vh;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  position: fixed;
+  background-color: black;
+  transition: .5s;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0, .1);
+}
