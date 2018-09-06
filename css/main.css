@@ -1,42 +1,92 @@
- @import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+ @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+  @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
+html {
+  /* background: radial-gradient(#03025a 10%, #11022f 80%); */
+}
 
 body {
+  /* color: #6be4f2; */
+  font-family: 'Roboto Slab', sans-serif;
+  margin: 0;
+}
 
-  background: radial-gradient(#03025a 10%, #11022f 80%);
-  color: antiquewhite;
-  font-family: 'Libre Franklin', sans-serif;}
+h1 {
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 8vh;
+}
 
 nav li a {
-  color: white;
-  display: inline-block;
-  margin-left: 1vw;
-  margin-right: 1vw;
-  text-decoration: none;
-  transition: .2s;
+ color: white;
+ display: inline-block;
+ margin-left: 1vw;
+ margin-right: 1vw;
+ text-decoration: none;
+ transition: .3s;
 }
 
 nav li a:hover {
-  background-color: white;
-  color: black;
+ background-color: white;
+ color: black;
 }
 
 nav ul {
-  width: 100vw;
-  height: 3vh;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
+ width: 100vw;
+ height: 3vh;
+ list-style: none;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-end;
+  padding-left: 0;
 }
 
 nav {
-  position: fixed;
-  background-color: black;
-  transition: .5s;
+ position: fixed;
+ background-color: rgba(48, 45, 56, 0.92);
 }
 
 .section {
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0,0,0, .1);
+ width: 100vw;
+ height: 100vh;
+ text-align: center;
+}
+
+.container {
+ text-align: left;
+ width: 70%;
+ margin: 0 auto;
+ padding-top: 10vh;
+}
+
+.project {
+  width: 40%;
+  min-width: 300px;
+  text-align: center;
+  font-size: .7rem;
+  display: inline-block;
+  margin: 3%;
+  vertical-align: top;
+}
+
+.project img {
+  width: 100%;
+  border-radius: .5rem;
+}
+
+.project a {
+  text-decoration: none;
+  color: grey;
+}
+
+.social img {
+  height: 5vh;
+  width: 5vh;
+  margin-right: 1vh;
+}
+
+#portrait {
+  width: 12rem;
+  float: right;
+  border-radius: 30rem;
+  border: .2rem solid grey;
 }
