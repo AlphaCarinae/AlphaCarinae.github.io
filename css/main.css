@@ -87,7 +87,12 @@ nav {
 .social img {
   height: 5vh;
   width: 5vh;
-  margin-right: 1vh;
+  margin-right: 2vh;
+  
+}
+
+.social {
+  display: inline-block;
 }
 
 #portrait {
