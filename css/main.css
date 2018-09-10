@@ -51,10 +51,32 @@ nav {
  background-color: rgba(48, 45, 56, 0.92);
 }
 
+footer {
+  background-color: rgba(48, 45, 56, 0.92);
+  position: sticky;
+  width: 100vw;
+  height: 3vh;
+  text-align: right;
+
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
 .section {
  width: 100vw;
- height: 100vh;
  text-align: center;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.about {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
 }
 
 .container {
@@ -88,7 +110,7 @@ nav {
   height: 5vh;
   width: 5vh;
   margin-right: 2vh;
-  
+
 }
 
 .social {
