@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 @media ( max-width: 600px) {
-  .section {
+  .works {
    height: 150vh !important;
   }
 }
@@ -55,8 +55,8 @@ footer {
   background-color: rgba(48, 45, 56, 0.92);
   position: sticky;
   width: 100vw;
-  height: 3vh;
-  text-align: right;
+  height: 25px;
+  text-align: center;
 
 }
 
@@ -64,12 +64,13 @@ footer a {
   text-decoration: none;
   color: white;
 }
-.section {
+.works {
  width: 100vw;
  text-align: center;
+ background-color: rgb(202, 211, 216);
 }
 
-.section h1 {
+.works h1 {
   text-align: center;
 }
 
