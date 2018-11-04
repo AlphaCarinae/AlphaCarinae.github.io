@@ -76,6 +76,12 @@ svg {
   fill: currentColor;
 }
 
+span {
+  display: block;
+  font-style: Italic;
+  color: rgb(221, 236, 32);
+}
+
 .works {
  width: 100vw;
  text-align: center;
