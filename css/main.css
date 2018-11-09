@@ -1,11 +1,7 @@
  @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
   @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
-@media ( max-width: 600px) {
-  .works {
-   height: 150vh !important;
-  }
-}
+
 
 html {
   /* background: radial-gradient(#03025a 10%, #11022f 80%); */
@@ -203,4 +199,31 @@ span {
   height: 85vh;
   padding-top: 5vh;
   text-align: center;
+}
+
+
+@media ( max-width: 600px) {
+  h1 {
+    font-size: 6vh;
+  }
+
+  .vertical, .horizontal {
+    display: none;
+  }
+
+  .about {
+    height: 150vh ;
+  }
+
+  nav ul {
+    height: 55px  ;
+  }
+
+  nav li a {
+    padding: 6.5px  ;
+  }
+
+  #portrait {
+    float: none  ;
+  }
 }
