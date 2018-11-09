@@ -204,7 +204,11 @@ span {
 
 @media ( max-width: 600px) {
   h1 {
-    font-size: 6vh;
+    font-size: 5vh;
+  }
+
+  body {
+    font-size: .9rem;
   }
 
   .vertical, .horizontal {
@@ -212,18 +216,27 @@ span {
   }
 
   .about {
-    height: 150vh ;
+    height: 50rem ;
+  }
+
+  .project {
+    width: 80%;
+    min-width: 200px;
+    font-size: .9rem;
   }
 
   nav ul {
-    height: 55px  ;
+    height: 8vh  ;
   }
 
   nav li a {
     padding: 6.5px  ;
+    font-size: 2.1vh;
   }
 
   #portrait {
-    float: none  ;
+    float: none;
+    width: 8rem;
+    margin: auto;
   }
 }
